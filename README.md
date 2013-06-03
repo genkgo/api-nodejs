@@ -4,7 +4,7 @@ api-nodejs
 A node js package to connected to the Genkgo System
 
 
-== Using
+## Using
 
 After installing the application you can use the Genkgo Api
 
@@ -19,7 +19,7 @@ api.command('organization', 'query', {q: 'webmaster'}, function (result) {
 
 ```
 
-== Testing
+## Testing
 
 * Copy test-settings.js.sample to test-settings.js
 * Change the url to your domain
@@ -30,7 +30,7 @@ run the test node
 node tests/test.js
 ```
 
-== Info
+## Info
 
 * [https://github.com/genkgo/api-docs](https://github.com/genkgo/api-docs)
 * [https://www.genkgo.com/](https://www.genkgo.com/)
