@@ -1,0 +1,2 @@
+exports.url = 'www.dummy.com';
+exports.apiKey = '{api-key}';
