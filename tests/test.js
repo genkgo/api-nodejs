@@ -26,6 +26,5 @@ api.command('organization', 'create', {name: 'test unit', objectclass: 'organiza
 	api.command('organization', 'delete', {target: entryId}, function (data) {
 		assert.equal('boolean', typeof data);
 		assert.equal(true, data);
-
 	});
 });

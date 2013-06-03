@@ -74,4 +74,3 @@ GenkgoApi.prototype = {
 exports.create = function (url, apiKey) {
 	return new GenkgoApi(url, apiKey);
 }
-
