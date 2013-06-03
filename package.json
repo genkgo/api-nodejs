@@ -4,7 +4,7 @@
   "description": "",
   "main": "genkgoapi.js",
   "scripts": {
-    "test": "make test"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",

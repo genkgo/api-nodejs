@@ -43,9 +43,10 @@ GenkgoApi.prototype = {
 			obj.debug('STATUS: ' + res.statusCode);
 			obj.debug('HEADERS: ' + JSON.stringify(res.headers));
 			res.setEncoding('utf8');
-			res.on('data', function (chunk) {
-				readyFunction(chunk);
-				obj.debug('BODY: ' + chunk);
+			res.on('data', function (data) {
+				data = JSON.parse(data)
+				readyFunction(data);
+				obj.debug('BODY: ' + data);
 			});
 		});
 
