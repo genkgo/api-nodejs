@@ -24,6 +24,7 @@ api.command('organization', 'query', {q: 'webmaster'}, function (result) {
 * Copy test-settings.js.sample to test-settings.js
 * Change the url to your domain
 * Change the Api key to a key given by the Genkgo system
+* Make sure the entry with api key has rights to execute your operations
 
 run the test node
 ```bash
